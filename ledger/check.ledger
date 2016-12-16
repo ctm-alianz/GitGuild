@@ -20,8 +20,8 @@ define user_issue_vote_check(user_name, vote_guild_name, vote_branch, vote_paren
 check user_vote_check("gitguild")
 check user_vote_check("isysd")
 
-check branch_vote_check("gitguild", "gitguild", "gitguild")
-check issue_vote_check("gitguild", "gitguild", "gitguild", "745df5efaa8e900bfe68392915a757d634ba36f9")
-check branch_vote_check("isysd", "gitguild", "gitguild")
-check user_issue_vote_check("isysd", "gitguild", "gitguild", "745df5efaa8e900bfe68392915a757d634ba36f9")
+check branch_vote_check("gitguild", "gitguild", "isysd")
+check issue_vote_check("gitguild", "gitguild", "isysd", "745df5efaa8e900bfe68392915a757d634ba36f9")
+check branch_vote_check("isysd", "gitguild", "isysd")
+check user_issue_vote_check("isysd", "gitguild", "isysd", "745df5efaa8e900bfe68392915a757d634ba36f9")
 

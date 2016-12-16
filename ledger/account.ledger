@@ -1,0 +1,47 @@
+; Account structure is quite complex in the GitGuild, creating a symmetry between this ledger and the git tree itself.
+; A number of complex and potentially long account names may be difficult to read, but they're quite organized.
+; The basic structure is as follows.
+;
+; username:user account:repository:branch:parent commit hash:metadata
+;
+; Most of these are probably self explanatory. User account is the usual suspects of accounting: Income, Expenses, Assets, Liabilities, Equity.
+; User account also has two additional options related to voting: Height, Depth.
+; Metadata might be bitcoin or dash addresses, and/or transaction hashes.
+
+account gitguild
+    note this Guild
+account isysd
+    note Founder and Ambassador
+account git
+    note a strawman account on behalf of the git team, if/until they accept
+account gpg
+    note a strawman account on behalf of the gnupg team, if/until they accept
+account ledger
+    note a strawman account on behalf of the ledger-cli team, if/until they accept
+
+account gitguild:Depth
+    note the Guild's voting account. Votes in XP the amount of qualified Income earned by member(s).
+    assert commodity == "XP"
+account gitguild:Height
+    note the Guild's vote counting area. Votes by members on commits related to this guild are recorded here.
+    assert commodity == "XP"
+account gitguild:Equity
+account gitguild:Income
+    note the GitGuild agrees to share Income to the following amounts: 0.2% to isysd, 0.1% each to git, gpg, ledger
+account gitguild:Assets
+account gitguild:Liabilities
+    note This guild can only have XGG liabilities, and this is the source of all XGG.
+account gitguild:Expenses
+    note Members earning Income on approved labor can ask to cash in XGG against the Guild's Assets, creating an Expense
+
+account isysd:Depth
+    note The votes that isysd has spent. Cannot spend more than account height on a commit/issue.
+account isysd:Height
+    note The number of votes that isysd has received from the gitguild and also the XP voting power of isysd.
+; users do not get Equity as members of a shared guild.
+account isysd:Income
+    note The GitGuild agrees to share guild Income 0.2% to isysd for contributions prior to launch. Isysd will also bill work and expenses like any other contributor.
+account isysd:Assets
+account isysd:Liabilities
+account isysd:Expenses
+

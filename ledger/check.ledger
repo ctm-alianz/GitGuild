@@ -1,8 +1,8 @@
 ; TODO lots of assertions and checks go here to ensure proper behavior
 ; these will be suplimented with file templates and transformations
 
-define GUILD_DEPTH = (-account("gitguild:Depth").total)
-define GUILD_HEIGHT = (account("gitguild:Height").total)
+define GUILD_DEPTH = (-account("gitguild:Depth:gitguild").total)
+define GUILD_HEIGHT = (account("gitguild:Height:gitguild").total)
 
 ; Each user must have net positive score
 define user_vote_check(user_name) = (account(user_name + ":Height").total >= GUILD_DEPTH / 2)

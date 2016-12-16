@@ -1,26 +1,20 @@
-2016/12/15 * Guild Initialization
-    ; gitguild register itself as a guild by paying... itself
-    gitguild:Income:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9              -10 XGG
-    gitguild:Expenses:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9            1010.5 XGG
-    gitguild:Liabilities:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9         -1010.5 XGG
-    gitguild:Assets:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9              10 XGG
-    ; Income sharing with major contributors
-    git:Income:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9                  -0.1 XGG
-    git:Assets:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9                  0.1 XGG
-    gpg:Income:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9                  -0.1 XGG
-    gpg:Assets:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9                  0.1 XGG
-    ledger:Income:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9                  -0.1 XGG
-    ledger:Assets:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9                  0.1 XGG
-    ; isysd gets extra XP as only active, direct contributor
-    isysd:Income:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9                -1000.2 XGG
-    isysd:Assets:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9                 1000.2 XGG
-    ; gitguild votes XP for equivalent to amount of qualified XGG Income
-    gitguild:Depth:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9                  -1000.5 XP
-    git:Height:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9                  0.1 XP
-    gpg:Height:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9                  0.1 XP
-    ledger:Height:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9                  0.1 XP
-    isysd:Height:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9                  1000.2 XP
-    ; isysd votes for this commit using new XP voting power
-    isysd:Depth:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9                  -1000.2 XP
-    gitguild:Height:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9               1000.2 XP
-
+2016/12/14 * Recognize isysd Pay for Personal Guild Initialization
+    gitguild:Income:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                 -1 XGG
+    gitguild:Assets:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                 0.95 XGG
+    ; GitGuild Income sharing agreement
+    gitguild:Expenses:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                0.05 XGG
+    isysd:Income:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                     -0.02 XGG
+    isysd:Assets:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                     0.02 XGG
+    git:Income:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                       -0.01 XGG
+    git:Assets:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                       0.01 XGG
+    gpg:Income:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                       -0.01 XGG
+    gpg:Assets:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                       0.01 XGG
+    ledger:Income:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                    -0.01 XGG
+    ledger:Assets:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                    0.01 XGG
+    gitguild:Depth:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec              -0.05 XP
+    isysd:Height:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec                 0.02 XP
+    git:Height:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec                 0.01 XP
+    gpg:Height:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec                 0.01 XP
+    ledger:Height:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec                 0.01 XP
+    gitguild:Height:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec                 1000.22 XP
+    isysd:Depth:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec                 -1000.22 XP

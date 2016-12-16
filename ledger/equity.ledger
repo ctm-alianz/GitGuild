@@ -1,20 +1,38 @@
 2016/12/15 Opening Balances
     git:Assets:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9  0.1000 XGG
+    git:Assets:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c  0.0100 XGG
     git:Height:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9     0.10 XP
+    git:Height:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec     0.01 XP
     git:Income:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9  -0.1000 XGG
+    git:Income:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c  -0.0100 XGG
     gitguild:Assets:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9  10.0000 XGG
+    gitguild:Assets:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c  0.9500 XGG
     gitguild:Depth:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9  -1,000.50 XP
+    gitguild:Depth:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec    -0.05 XP
     gitguild:Expenses:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9  1,010.5000 XGG
+    gitguild:Expenses:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c  0.0500 XGG
     gitguild:Height:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9  1,000.20 XP
+    gitguild:Height:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec  1,000.22 XP
     gitguild:Income:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9  -10.0000 XGG
+    gitguild:Income:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c  -1.0000 XGG
     gitguild:Liabilities:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9  -1,010.5000 XGG
     gpg:Assets:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9  0.1000 XGG
+    gpg:Assets:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c  0.0100 XGG
     gpg:Height:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9     0.10 XP
+    gpg:Height:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec     0.01 XP
     gpg:Income:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9  -0.1000 XGG
+    gpg:Income:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c  -0.0100 XGG
     isysd:Assets:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9  1,000.2000 XGG
+    isysd:Assets:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c  0.0200 XGG
     isysd:Depth:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9  -1,000.20 XP
+    isysd:Depth:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec  -1,000.22 XP
     isysd:Height:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9  1,000.20 XP
+    isysd:Height:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec     0.02 XP
     isysd:Income:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9  -1,000.2000 XGG
+    isysd:Income:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c  -0.0200 XGG
     ledger:Assets:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9  0.1000 XGG
+    ledger:Assets:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c  0.0100 XGG
     ledger:Height:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9     0.10 XP
+    ledger:Height:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec     0.01 XP
     ledger:Income:gitguild:isysd:745df5efaa8e900bfe68392915a757d634ba36f9  -0.1000 XGG
+    ledger:Income:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c  -0.0100 XGG

@@ -1,20 +1,4 @@
-2016/12/14 * Recognize isysd Pay for Personal Guild Initialization
-    gitguild:Income:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                 -1 XGG
-    gitguild:Assets:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                 0.95 XGG
-    ; GitGuild Income sharing agreement
-    gitguild:Expenses:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                0.05 XGG
-    isysd:Income:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                     -0.02 XGG
-    isysd:Assets:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                     0.02 XGG
-    git:Income:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                       -0.01 XGG
-    git:Assets:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                       0.01 XGG
-    gpg:Income:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                       -0.01 XGG
-    gpg:Assets:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                       0.01 XGG
-    ledger:Income:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                    -0.01 XGG
-    ledger:Assets:isysd:isysd:62860bab482c2c6f8b7e2766fd2fed3ba58f158c                    0.01 XGG
-    gitguild:Depth:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec              -0.05 XP
-    isysd:Height:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec                 0.02 XP
-    git:Height:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec                 0.01 XP
-    gpg:Height:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec                 0.01 XP
-    ledger:Height:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec                 0.01 XP
-    gitguild:Height:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec                 1000.22 XP
-    isysd:Depth:gitguild:isysd:a7704e4ab4a261266955e501535d0f672d673dec                 -1000.22 XP
+2016/12/14 Recognize ctm-alianz registration w/ payable
+    ctm-alianz:Payable:ctm-alianz:ctm-alianz:da33363379a83c9ad8368ab4398a724ff5bd509f       1 XGG
+    gitguild:Receivable:ctm-alianz:ctm-alianz:da33363379a83c9ad8368ab4398a724ff5bd509f      -1 XGG
+
